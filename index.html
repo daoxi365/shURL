@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>shURL 短网址</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./media/favicon.ico">
+			<!--
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="https://unpkg.com/leancloud-storage@3.15.0/dist/av-min.js"></script>	
+			-->
+		<script src="./js/av-min.js"></script>
+		<script src="./js/tailwindcss_v3.4.1.js"></script>
+	</head>
+	<body>
+
+		<div class="flex flex-col items-center justify-center h-screen bg-sky-100">
+	    	<img src="./media/logo.png" alt="logo" class="w-20 h-auto mb-8 rounded-lg">
+	    	<form action="javascript:make();" class="flex items-center justify-center w-1/2 bg-white rounded-full shadow-xl">
+		        <input type="text" placeholder="转换为短网址" id="ago" class="w-full px-4 py-2 rounded-l-full focus:outline-none">
+		        <button type="submit" class="flex items-center justify-center px-4 py-2 text-white bg-emerald-700 rounded-r-full hover:bg-emerald-900 focus:outline-none">
+					<b>Go!</b>
+				</button>
+	    	</form>
+	    	<br><br>
+			<p id="newURL"><a class="text-teal-500 hover:text-teal-600" href="./support/support.html"><b>帮助文档：我也想创建一个这样的网站。</b></a></p>
+	    </div>
+		<script src="./js/app.js"></script>
+		<script>
+			loadTo();
+		</script>
+	</body>
+</html>
