@@ -1,4 +1,4 @@
-const WEBSITE = "https://o3rvkvzb.api.lncldglobal.com";
+const WEBSITE = "https://pandaoxi.github.io";
 const APPID = "o3rVKVzbJJWGlgyLCuME7rAZ-MdYXbMMI";
 const APPKEY = "IU5u6FRT0d1usLn6M9NPKecF";
 const GITHUB = true;
