@@ -95,7 +95,8 @@ function loadTo() {
 	try {
 		var x = getName("x");
 		if (x == "ERROR ERROR ERROR!!!") return;
-		setNote(`<b class="text-amber-700">正在跳转：<code>${x}</code>；<a href="${WEBSITE}" class="text-sky-600 hover:text-sky-700">取消此操作</a>。</b>`);
+		var w = `${WEBSITE}/` + (GITHUB ? `${GITHUB_REPOSITORY}/` : ``);
+		setNote(`<b class="text-amber-700">正在跳转：<code>${x}</code>；<a href="${w}" class="text-sky-600 hover:text-sky-700">取消此操作</a>。</b>`);
 		const query = new AV.Query("shURL");
 		query.equalTo("shortURL", x);
 		query.find().then((link) => {
