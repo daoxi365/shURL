@@ -25,7 +25,7 @@ https://pandaoxi.github.io/shURL/?x=Gs64
 
 ## 操作步骤
 
-1.   注册一个 $\texttt{LeanCloud}$​ （推荐使用**国际版**）账号。
+1.   注册一个 $\texttt{LeanCloud}$​ （如果你使用国外网络环境，推荐使用**国际版**）账号。
 
      ![](./img/1.png)
 
