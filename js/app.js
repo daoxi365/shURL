@@ -1,7 +1,7 @@
-const WEBSITE = "https://pandaoxi.github.io";
+const WEBSITE = "https://daoxi365.dpdns.org/";
 const APPID = "KeaEh5SIw5KH8dEHEQQYaanU-MdYXbMMI";
 const APPKEY = "mSFSDLq3fSlVGNb2PCjaHltc";
-const GITHUB = true;
+const GITHUB = false;
 const GITHUB_REPOSITORY = "shURL";
 const LENGTH = 4;
 
