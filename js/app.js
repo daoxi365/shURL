@@ -1,4 +1,4 @@
-const WEBSITE = "https://daoxi365.dpdns.org/";
+const WEBSITE = "https://daoxi365.dpdns.org";
 const APPID = "KeaEh5SIw5KH8dEHEQQYaanU-MdYXbMMI";
 const APPKEY = "mSFSDLq3fSlVGNb2PCjaHltc";
 const GITHUB = false;
