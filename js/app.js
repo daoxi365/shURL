@@ -1,6 +1,6 @@
 const WEBSITE = "https://daoxi365.dpdns.org";
-const APPID = "KeaEh5SIw5KH8dEHEQQYaanU-MdYXbMMI";
-const APPKEY = "mSFSDLq3fSlVGNb2PCjaHltc";
+const APPID = "ZvZV5nv6pzsi7UY4T258Oxhk-gzGzoHsz";
+const APPKEY = "qZAGxB5eEeYWKJGlN6vbmwoB";
 const GITHUB = false;
 const GITHUB_REPOSITORY = "shURL";
 const LENGTH = 4;
@@ -8,7 +8,7 @@ const LENGTH = 4;
 AV.init({
 	appId: APPID,
 	appKey: APPKEY,
-	// serverURL: WEBSITE,
+	serverURL: "https://zvzv5nv6.lc-cn-n1-shared.com",
 });
 AV.debug.enable();
 const SHURL = AV.Object.extend("shURL");
